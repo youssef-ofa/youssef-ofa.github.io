@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- ✏️ 1: عنوان التبويب في المتصفح -->
+<title>Youssef Ahmed | Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Caveat:wght@600&family=Space+Grotesk:wght@400;600;700&family=JetBrains+Mono&display=swap" rel="stylesheet">
+<!-- ✏️ 15: أيقونة التبويب - افتح assets/icons/favicon.svg وغيّر الحرف P لأول حرف من اسمك -->
+<link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<canvas id="bg"></canvas>
+<div class="cursor"></div>
+
+<nav>
+  <!-- ✏️ 2: اللوجو (اسمك المختصر) -->
+  <a href="#top" class="logo">Ofa</a>
+  <div>
+    <a href="#about">About</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<!-- ============ HERO ============ -->
+<header id="top" class="hero">
+  <div class="hero-bg">PORTFOLIO</div>
+  <div class="hero-in">
+    <p class="hello">Hello, I'm</p>
+    <!-- ✏️ 3: اسمك (الصندوق الأحمر) -->
+    <h1><span>Youssef</span></h1>
+    <!-- ✏️ 4: جملة التعريف (بتتكتب بتأثير الطباعة) - غيّر النص جوه data-text -->
+    <p class="type" data-text="Cybersecurity student focused on red teaming, ethical hacking, and penetration testing."></p>
+    <a href="#projects" class="btn">View my work</a>
+    <div class="stats">
+      <!-- ✏️ 5: أرقامك (عدد المشاريع، سنين الخبرة...) - غيّر الرقم والكلمة -->
+      <div><b>3</b><small>Projects</small></div>
+      <div><b>10</b><small>Programming Languages</small></div>
+      <div><b>4</b><small>Years learning</small></div>
+    </div>
+  </div>
+</header>
+
+<!-- ✏️ 16: الشريط الأحمر المتحرك - اكتب تقنياتك (انسخ نفس الكلام مرتين عشان الحركة متقطعش) -->
+<div class="marquee"><div>RED TEAMING • ETHICAL HACKING • PENTESTING • NETWORKING • LINUX • NMAP • WIRESHARK • HAVOC C2 • COBALT STRIKE • HYDRA • SQLMAP • KALI LINUX • PARROT OS • PYTHON • C++ • C# • RED TEAMING • ETHICAL HACKING • PENTESTING • NETWORKING • LINUX • NMAP • WIRESHARK • HAVOC C2 • COBALT STRIKE • HYDRA • SQLMAP • KALI LINUX • PARROT OS • PYTHON • C++ • C# • </div></div>
+<!-- ============ ABOUT ============ -->
+<section id="about" class="about">
+  <!-- ✏️ 6: صورتك - حطها في assets/img/me.jpg -->
+  <img src="assets/img/me.jpg" alt="YOUR NAME" class="photo">
+  <div>
+    <h2>Background &amp; The Mindset</h2>
+    <!-- ✏️ 7: فقرتين عنك وعن طريقة شغلك -->
+    <p>I'm Youssef Ahmed Mostafa, a senior Computer Science student at Thebes Academy for Computers and Information. My core focus is Cybersecurity, specifically in Red Teaming, Ethical Hacking, and Penetration Testing.</p>
+<p>​I am actively expanding my expertise in Networking and Linux systems to bridge the gap between network infrastructure and security. Known for strong analytical problem-solving, team leadership, and communication skills, my objective is to contribute effectively as a professional Cybersecurity Specialist.</p>
+  </div>
+</section>
+
+<!-- ============ EDUCATION ============ -->
+<section id="education">
+  <h2>Education</h2>
+  <div class="card big">
+    <span class="tag">Final Year</span>
+    <h3>Thebes Academy for Computers and Information</h3>
+    <p>Computer Science, now in my fourth and final year, with a personal focus on cybersecurity: red teaming, ethical hacking, and penetration testing.</p>
+  </div>
+</section>
+
+<!-- ============ LEARNING ROADMAP ============ -->
+<section id="roadmap">
+  <h2>Learning Roadmap</h2>
+  <div class="timeline">
+    <div class="card step">
+      <span class="tag done">Done</span>
+      <h3>Core Programming Languages</h3>
+      <p>HTML, CSS, JavaScript, Java, C++, Python, and C#.</p>
+    </div>
+    <div class="card step">
+      <span class="tag done">Done</span>
+      <h3>Design &amp; Web Development</h3>
+      <p>Design, UI/UX, website building, and programming courses.</p>
+    </div>
+    <div class="card step">
+      <span class="tag done">Done</span>
+      <h3>Cybersecurity Foundations</h3>
+      <p>Red teaming and ethical hacking courses, plus a cybersecurity certificate from the British University.</p>
+    </div>
+    <div class="card step">
+      <span class="tag now">In Progress</span>
+      <h3>Networking &amp; Linux</h3>
+      <p>Going deeper into networking and Linux to work at the intersection of networks and security.</p>
+    </div>
+    <div class="card step">
+      <span class="tag next">Next</span>
+      <h3>Build Strong Projects</h3>
+      <p>Real, solid projects that serve as proof of my skills and prepare me to work professionally in the field.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROJECTS ============ -->
+<section id="projects">
+  <h2>Projects &amp; Labs</h2>
+  <article class="card big">
+    <span class="tag">Team Project</span>
+    <h3>EduPath Learning Platform</h3>
+    <p>A web platform for instructors and students, built as a team project and hosted on GitHub. My contribution: guest sessions, so visitors can browse without logging in.</p>
+    <div class="stats">
+      <div><b>5</b><small>Team members</small></div>
+      <div><b>3</b><small>Features I built</small></div>
+    </div>
+    <p class="tech">HTML / CSS / JavaScript / GitHub / Back end</p>
+    <a href="https://github.com/abdallah-alawady/Graduation-Project.git" class="btn">View on GitHub</a>
+  </article>
+  <article class="card big">
+    <span class="tag">In Progress</span>
+    <h3>Penetration Testing Home Lab</h3>
+    <p>A personal lab where I practice reconnaissance, scanning, and exploitation in a safe and legal environment, while learning networking and Linux along the way.</p>
+    <div class="stats">
+      <div><b>01</b><small>Labs completed</small></div>
+      <div><b>14</b><small>Tools mastered</small></div>
+    </div>
+    <p class="tech">Kali Linux / Nmap / Wireshark</p>
+    <a href="#" class="btn">View my progress</a>
+  </article>
+</section>
+
+<!-- ============ COURSES & CERTIFICATES ============ -->
+<section id="certs">
+  <h2>Courses &amp; Certificates</h2>
+  <div class="grid">
+    <div class="card"><span class="tag">Certificate</span><h3>Cybersecurity Course</h3><p>The British University. Completed successfully, with an official certificate.</p></div>
+    <div class="card"><span class="tag">Course</span><h3>Red Teaming &amp; Ethical Hacking</h3><p>Red Teaming course by Red Nexus on Udemy, plus other ethical hacking courses.</p></div>
+    <div class="card"><span class="tag">Courses</span><h3>Design &amp; UI/UX</h3><p>Multiple design courses covering UI/UX principles and visual design.</p></div>
+    <div class="card"><span class="tag">Courses</span><h3>Web Development &amp; Programming</h3><p>Website building and programming courses across several languages.</p></div>
+  </div>
+</section>
+<!-- ============ SKILLS / SYSTEMS MATRIX ============ -->
+<section id="skills">
+  <h2>Systems Matrix</h2>
+ <div class="grid">
+  <div class="card"><h3>Offensive Security</h3><p>Red Teaming, Ethical Hacking, Penetration Testing</p></div>
+  <div class="card"><h3>Security Tools</h3><p>Nmap, Burp Suite, Metasploit, Wireshark</p></div>
+  <div class="card"><h3>Networking <small>(Learning)</small></h3><p>TCP/IP, Subnetting, Routing &amp; Switching</p></div>
+  <div class="card"><h3>Linux</h3><p>Kali Linux, Bash, Command Line</p></div>
+  <div class="card"><h3>Programming</h3><p>Python, C++, C#</p></div>
+  <div class="card"><h3>Web &amp; Tools</h3><p>HTML, CSS, JavaScript, Git, GitHub, VS Code</p></div>
+</div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section id="contact" class="contact">
+  <!-- ✏️ 11: عنوان قسم التواصل -->
+  <h2>Let's build something together.</h2>
+  <!-- ✏️ 12: جملة قصيرة -->
+  <p>One line inviting people to reach out.</p>
+  <div class="links">
+    <!-- ✏️ 13: لينكات التواصل بتاعتك -->
+    <a class="btn" id="mailBtn" href="mailto:youssefahmedelmostafa@gmail.com"><img src="assets/icons/mail.svg" alt="">Email</a>
+    <a class="btn" href="https://github.com/youssef-ofa"><img src="assets/icons/github.svg" alt="">GitHub</a>
+    <a class="btn" href="https://www.linkedin.com/in/youssef-ahmed-016437382?utm_source=share_via&utm_content=profile&utm_medium=member_android"><img src="assets/icons/linkedin.svg" alt="">LinkedIn</a>
+  </div>
+</section>
+
+<!-- ✏️ 14: الفوتر -->
+<footer>© 2026 Youssef Ahmed</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
